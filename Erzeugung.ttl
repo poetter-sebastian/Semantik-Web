@@ -1,0 +1,897 @@
+@base <http://example.com/base/> .
+@prefix owo: <http://www.semanticweb.org/Sebastian/Investitionen#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/23.124> a owo:Erzeugung;
+  owo:ErzWasserkraft "23.124";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/4.13> a owo:Erzeugung;
+  owo:ErzBiomasse "4.13";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/156.287> a owo:Erzeugung;
+  owo:ErzKernenergie "156.287";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/140.544> a owo:Erzeugung;
+  owo:ErzBraunkohle "140.544";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/111.427> a owo:Erzeugung;
+  owo:ErzSteinkohle "111.427";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/1.755> a owo:Erzeugung;
+  owo:ErzOel "1.755";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/39.983> a owo:Erzeugung;
+  owo:ErzGas "39.983";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/9.713> a owo:Erzeugung;
+  owo:ErzAndere "9.713";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Pumpspeicher/0> a owo:Erzeugung;
+  owo:ErzPumpspeicher "0";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/16.102> a owo:Erzeugung;
+  owo:ErzWind "16.102";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+owo:Solar0.162 a owo:Erzeugung;
+  <ErzSolar> "0.162";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/18.322> a owo:Erzeugung;
+  owo:ErzWasserkraft "18.322";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/6.746> a owo:Erzeugung;
+  owo:ErzBiomasse "6.746";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/156.456> a owo:Erzeugung;
+  owo:ErzKernenergie "156.456";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/141.726> a owo:Erzeugung;
+  owo:ErzBraunkohle "141.726";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/121.831> a owo:Erzeugung;
+  owo:ErzSteinkohle "121.831";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/2.035> a owo:Erzeugung;
+  owo:ErzOel "2.035";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/44.974> a owo:Erzeugung;
+  owo:ErzGas "44.974";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/10.359> a owo:Erzeugung;
+  owo:ErzAndere "10.359";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/19.087> a owo:Erzeugung;
+  owo:ErzWind "19.087";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+owo:Solar0.313 a owo:Erzeugung;
+  <ErzSolar> "0.313";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2003> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/20.745> a owo:Erzeugung;
+  owo:ErzWasserkraft "20.745";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/8.385> a owo:Erzeugung;
+  owo:ErzBiomasse "8.385";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/158.378> a owo:Erzeugung;
+  owo:ErzKernenergie "158.378";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/142.136> a owo:Erzeugung;
+  owo:ErzBraunkohle "142.136";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/116.64> a owo:Erzeugung;
+  owo:ErzSteinkohle "116.64";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/1.874> a owo:Erzeugung;
+  owo:ErzOel "1.874";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/44.882> a owo:Erzeugung;
+  owo:ErzGas "44.882";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/10.581> a owo:Erzeugung;
+  owo:ErzAndere "10.581";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/26.019> a owo:Erzeugung;
+  owo:ErzWind "26.019";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+owo:Solar0.557 a owo:Erzeugung;
+  <ErzSolar> "0.557";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2004> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/19.638> a owo:Erzeugung;
+  owo:ErzWasserkraft "19.638";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/11.61> a owo:Erzeugung;
+  owo:ErzBiomasse "11.61";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/154.612> a owo:Erzeugung;
+  owo:ErzKernenergie "154.612";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/138.205> a owo:Erzeugung;
+  owo:ErzBraunkohle "138.205";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/112.973> a owo:Erzeugung;
+  owo:ErzSteinkohle "112.973";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/2.401> a owo:Erzeugung;
+  owo:ErzOel "2.401";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/52.31> a owo:Erzeugung;
+  owo:ErzGas "52.31";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/12.261> a owo:Erzeugung;
+  owo:ErzAndere "12.261";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/27.774> a owo:Erzeugung;
+  owo:ErzWind "27.774";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+owo:Solar1.282 a owo:Erzeugung;
+  <ErzSolar> "1.282";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/20.031> a owo:Erzeugung;
+  owo:ErzWasserkraft "20.031";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/15.224> a owo:Erzeugung;
+  owo:ErzBiomasse "15.224";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/158.711> a owo:Erzeugung;
+  owo:ErzKernenergie "158.711";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/135.087> a owo:Erzeugung;
+  owo:ErzBraunkohle "135.087";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/116.47> a owo:Erzeugung;
+  owo:ErzSteinkohle "116.47";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/2.086> a owo:Erzeugung;
+  owo:ErzOel "2.086";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/54.958> a owo:Erzeugung;
+  owo:ErzGas "54.958";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/12.486> a owo:Erzeugung;
+  owo:ErzAndere "12.486";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/31.324> a owo:Erzeugung;
+  owo:ErzWind "31.324";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+owo:Solar2.22 a owo:Erzeugung;
+  <ErzSolar> "2.22";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2006> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/21.17> a owo:Erzeugung;
+  owo:ErzWasserkraft "21.17";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/20.212> a owo:Erzeugung;
+  owo:ErzBiomasse "20.212";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/133.229> a owo:Erzeugung;
+  owo:ErzKernenergie "133.229";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/138.565> a owo:Erzeugung;
+  owo:ErzBraunkohle "138.565";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/119.131> a owo:Erzeugung;
+  owo:ErzSteinkohle "119.131";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/2.234> a owo:Erzeugung;
+  owo:ErzOel "2.234";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/56.257> a owo:Erzeugung;
+  owo:ErzGas "56.257";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/12.59> a owo:Erzeugung;
+  owo:ErzAndere "12.59";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/40.507> a owo:Erzeugung;
+  owo:ErzWind "40.507";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+owo:Solar3.075 a owo:Erzeugung;
+  <ErzSolar> "3.075";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2007> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/20.443> a owo:Erzeugung;
+  owo:ErzWasserkraft "20.443";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/23.43> a owo:Erzeugung;
+  owo:ErzBiomasse "23.43";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/140.71> a owo:Erzeugung;
+  owo:ErzKernenergie "140.71";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/134.498> a owo:Erzeugung;
+  owo:ErzBraunkohle "134.498";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/105.714> a owo:Erzeugung;
+  owo:ErzSteinkohle "105.714";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/2.211> a owo:Erzeugung;
+  owo:ErzOel "2.211";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/66.937> a owo:Erzeugung;
+  owo:ErzGas "66.937";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/12.987> a owo:Erzeugung;
+  owo:ErzAndere "12.987";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/41.385> a owo:Erzeugung;
+  owo:ErzWind "41.385";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+owo:Solar4.42 a owo:Erzeugung;
+  <ErzSolar> "4.42";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2008> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/19.031> a owo:Erzeugung;
+  owo:ErzWasserkraft "19.031";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/28.784> a owo:Erzeugung;
+  owo:ErzBiomasse "28.784";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/127.69> a owo:Erzeugung;
+  owo:ErzKernenergie "127.69";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/130.992> a owo:Erzeugung;
+  owo:ErzBraunkohle "130.992";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/91.654> a owo:Erzeugung;
+  owo:ErzSteinkohle "91.654";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/2.492> a owo:Erzeugung;
+  owo:ErzOel "2.492";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/57.599> a owo:Erzeugung;
+  owo:ErzGas "57.599";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/4.51> a owo:Erzeugung;
+  owo:ErzAndere "4.51";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/39.42> a owo:Erzeugung;
+  owo:ErzWind "39.42";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+owo:Solar6.583 a owo:Erzeugung;
+  <ErzSolar> "6.583";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/20.953> a owo:Erzeugung;
+  owo:ErzWasserkraft "20.953";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/31.325> a owo:Erzeugung;
+  owo:ErzBiomasse "31.325";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/132.971> a owo:Erzeugung;
+  owo:ErzKernenergie "132.971";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/130.429> a owo:Erzeugung;
+  owo:ErzBraunkohle "130.429";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/99.706> a owo:Erzeugung;
+  owo:ErzSteinkohle "99.706";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/2.544> a owo:Erzeugung;
+  owo:ErzOel "2.544";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/63.091> a owo:Erzeugung;
+  owo:ErzGas "63.091";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/4.98> a owo:Erzeugung;
+  owo:ErzAndere "4.98";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/38.547> a owo:Erzeugung;
+  owo:ErzWind "38.547";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+owo:Solar11.729 a owo:Erzeugung;
+  <ErzSolar> "11.729";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2010> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/17.671> a owo:Erzeugung;
+  owo:ErzWasserkraft "17.671";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/34.062> a owo:Erzeugung;
+  owo:ErzBiomasse "34.062";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/102.241> a owo:Erzeugung;
+  owo:ErzKernenergie "102.241";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/134.056> a owo:Erzeugung;
+  owo:ErzBraunkohle "134.056";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/96.499> a owo:Erzeugung;
+  owo:ErzSteinkohle "96.499";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/1.638> a owo:Erzeugung;
+  owo:ErzOel "1.638";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/59.761> a owo:Erzeugung;
+  owo:ErzGas "59.761";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/4.532> a owo:Erzeugung;
+  owo:ErzAndere "4.532";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/49.857> a owo:Erzeugung;
+  owo:ErzWind "49.857";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+owo:Solar19.599 a owo:Erzeugung;
+  <ErzSolar> "19.599";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2011> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/21.211> a owo:Erzeugung;
+  owo:ErzWasserkraft "21.211";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/39.952> a owo:Erzeugung;
+  owo:ErzBiomasse "39.952";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/94.18> a owo:Erzeugung;
+  owo:ErzKernenergie "94.18";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/141.868> a owo:Erzeugung;
+  owo:ErzBraunkohle "141.868";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/105.83> a owo:Erzeugung;
+  owo:ErzSteinkohle "105.83";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/2.153> a owo:Erzeugung;
+  owo:ErzOel "2.153";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/49.868> a owo:Erzeugung;
+  owo:ErzGas "49.868";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/4.831> a owo:Erzeugung;
+  owo:ErzAndere "4.831";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/51.68> a owo:Erzeugung;
+  owo:ErzWind "51.68";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+owo:Solar26.38 a owo:Erzeugung;
+  <ErzSolar> "26.38";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2012> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/22.845> a owo:Erzeugung;
+  owo:ErzWasserkraft "22.845";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/41.043> a owo:Erzeugung;
+  owo:ErzBiomasse "41.043";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/92.127> a owo:Erzeugung;
+  owo:ErzKernenergie "92.127";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/145.122> a owo:Erzeugung;
+  owo:ErzBraunkohle "145.122";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/110.724> a owo:Erzeugung;
+  owo:ErzSteinkohle "110.724";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/0.988> a owo:Erzeugung;
+  owo:ErzOel "0.988";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/39.584> a owo:Erzeugung;
+  owo:ErzGas "39.584";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/6.015> a owo:Erzeugung;
+  owo:ErzAndere "6.015";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/52.737> a owo:Erzeugung;
+  owo:ErzWind "52.737";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+owo:Solar31.01 a owo:Erzeugung;
+  <ErzSolar> "31.01";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/19.41> a owo:Erzeugung;
+  owo:ErzWasserkraft "19.41";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/42.641> a owo:Erzeugung;
+  owo:ErzBiomasse "42.641";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/91.8> a owo:Erzeugung;
+  owo:ErzKernenergie "91.8";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/140.791> a owo:Erzeugung;
+  owo:ErzBraunkohle "140.791";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/107.734> a owo:Erzeugung;
+  owo:ErzSteinkohle "107.734";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/0.872> a owo:Erzeugung;
+  owo:ErzOel "0.872";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/31.122> a owo:Erzeugung;
+  owo:ErzGas "31.122";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/4.837> a owo:Erzeugung;
+  owo:ErzAndere "4.837";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/58.497> a owo:Erzeugung;
+  owo:ErzWind "58.497";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+owo:Solar36.056 a owo:Erzeugung;
+  <ErzSolar> "36.056";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2014> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/18.812> a owo:Erzeugung;
+  owo:ErzWasserkraft "18.812";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/44.151> a owo:Erzeugung;
+  owo:ErzBiomasse "44.151";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/86.765> a owo:Erzeugung;
+  owo:ErzKernenergie "86.765";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/139.371> a owo:Erzeugung;
+  owo:ErzBraunkohle "139.371";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/106.208> a owo:Erzeugung;
+  owo:ErzSteinkohle "106.208";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/0.904> a owo:Erzeugung;
+  owo:ErzOel "0.904";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/30.123> a owo:Erzeugung;
+  owo:ErzGas "30.123";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/2.767> a owo:Erzeugung;
+  owo:ErzAndere "2.767";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Pumpspeicher/9.077> a owo:Erzeugung;
+  owo:ErzPumpspeicher "9.077";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/80.624> a owo:Erzeugung;
+  owo:ErzWind "80.624";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+owo:Solar38.726 a owo:Erzeugung;
+  <ErzSolar> "38.726";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2015> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/20.66> a owo:Erzeugung;
+  owo:ErzWasserkraft "20.66";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/44.681> a owo:Erzeugung;
+  owo:ErzBiomasse "44.681";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/80.038> a owo:Erzeugung;
+  owo:ErzKernenergie "80.038";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/134.886> a owo:Erzeugung;
+  owo:ErzBraunkohle "134.886";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/99.765> a owo:Erzeugung;
+  owo:ErzSteinkohle "99.765";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/1.055> a owo:Erzeugung;
+  owo:ErzOel "1.055";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/46.503> a owo:Erzeugung;
+  owo:ErzGas "46.503";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/2.692> a owo:Erzeugung;
+  owo:ErzAndere "2.692";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Pumpspeicher/8.986> a owo:Erzeugung;
+  owo:ErzPumpspeicher "8.986";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/79.924> a owo:Erzeugung;
+  owo:ErzWind "79.924";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+owo:Solar38.098 a owo:Erzeugung;
+  <ErzSolar> "38.098";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2016> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/20.079> a owo:Erzeugung;
+  owo:ErzWasserkraft "20.079";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/44.792> a owo:Erzeugung;
+  owo:ErzBiomasse "44.792";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/72.155> a owo:Erzeugung;
+  owo:ErzKernenergie "72.155";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/133.983> a owo:Erzeugung;
+  owo:ErzBraunkohle "133.983";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/81.724> a owo:Erzeugung;
+  owo:ErzSteinkohle "81.724";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/1.041> a owo:Erzeugung;
+  owo:ErzOel "1.041";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/48.956> a owo:Erzeugung;
+  owo:ErzGas "48.956";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/1.983> a owo:Erzeugung;
+  owo:ErzAndere "1.983";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Pumpspeicher/9.247> a owo:Erzeugung;
+  owo:ErzPumpspeicher "9.247";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/105.693> a owo:Erzeugung;
+  owo:ErzWind "105.693";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+owo:Solar39.401 a owo:Erzeugung;
+  <ErzSolar> "39.401";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/17.141> a owo:Erzeugung;
+  owo:ErzWasserkraft "17.141";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/45.805> a owo:Erzeugung;
+  owo:ErzBiomasse "45.805";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/71.866> a owo:Erzeugung;
+  owo:ErzKernenergie "71.866";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/131.498> a owo:Erzeugung;
+  owo:ErzBraunkohle "131.498";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/72.406> a owo:Erzeugung;
+  owo:ErzSteinkohle "72.406";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/0.782> a owo:Erzeugung;
+  owo:ErzOel "0.782";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/44.533> a owo:Erzeugung;
+  owo:ErzGas "44.533";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/2.83> a owo:Erzeugung;
+  owo:ErzAndere "2.83";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Pumpspeicher/10.058> a owo:Erzeugung;
+  owo:ErzPumpspeicher "10.058";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/109.951> a owo:Erzeugung;
+  owo:ErzWind "109.951";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+owo:Solar45.784 a owo:Erzeugung;
+  <ErzSolar> "45.784";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2018> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/20.137> a owo:Erzeugung;
+  owo:ErzWasserkraft "20.137";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/43.71> a owo:Erzeugung;
+  owo:ErzBiomasse "43.71";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/70.992> a owo:Erzeugung;
+  owo:ErzKernenergie "70.992";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/101.924> a owo:Erzeugung;
+  owo:ErzBraunkohle "101.924";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/49.503> a owo:Erzeugung;
+  owo:ErzSteinkohle "49.503";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/0.745> a owo:Erzeugung;
+  owo:ErzOel "0.745";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/52.9> a owo:Erzeugung;
+  owo:ErzGas "52.9";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/2.608> a owo:Erzeugung;
+  owo:ErzAndere "2.608";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Pumpspeicher/8.953> a owo:Erzeugung;
+  owo:ErzPumpspeicher "8.953";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/125.894> a owo:Erzeugung;
+  owo:ErzWind "125.894";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+owo:Solar46.392 a owo:Erzeugung;
+  <ErzSolar> "46.392";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2019> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/18.402> a owo:Erzeugung;
+  owo:ErzWasserkraft "18.402";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/47.148> a owo:Erzeugung;
+  owo:ErzBiomasse "47.148";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/60.917> a owo:Erzeugung;
+  owo:ErzKernenergie "60.917";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/82.128> a owo:Erzeugung;
+  owo:ErzBraunkohle "82.128";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/35.591> a owo:Erzeugung;
+  owo:ErzSteinkohle "35.591";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/0.59> a owo:Erzeugung;
+  owo:ErzOel "0.59";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/56.767> a owo:Erzeugung;
+  owo:ErzGas "56.767";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Pumpspeicher/10.57> a owo:Erzeugung;
+  owo:ErzPumpspeicher "10.57";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/131.851> a owo:Erzeugung;
+  owo:ErzWind "131.851";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+owo:Solar51.419 a owo:Erzeugung;
+  <ErzSolar> "51.419";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2020> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> a owo:Jahr;
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wasserkraft/4.767> a owo:Erzeugung;
+  owo:ErzWasserkraft "4.767";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Biomasse/15.656> a owo:Erzeugung;
+  owo:ErzBiomasse "15.656";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Kernenergie/21.456> a owo:Erzeugung;
+  owo:ErzKernenergie "21.456";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Braunkohle/31.456> a owo:Erzeugung;
+  owo:ErzBraunkohle "31.456";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Steinkohle/15.413> a owo:Erzeugung;
+  owo:ErzSteinkohle "15.413";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Oel/0.454> a owo:Erzeugung;
+  owo:ErzOel "0.454";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Gas/25.862> a owo:Erzeugung;
+  owo:ErzGas "25.862";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Andere/0.923> a owo:Erzeugung;
+  owo:ErzAndere "0.923";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Pumpspeicher/3.117> a owo:Erzeugung;
+  owo:ErzPumpspeicher "3.117";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Wind/43.643> a owo:Erzeugung;
+  owo:ErzWind "43.643";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .
+
+owo:Solar13.109 a owo:Erzeugung;
+  <ErzSolar> "13.109";
+  owo:Jahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2021> .

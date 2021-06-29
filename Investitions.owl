@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Sebastian/Investitionen#"
+     xml:base="http://www.semanticweb.org/Sebastian/Investitionen"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Sebastian/Investitionen"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#AnteilJahr -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#AnteilJahr">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Jahr"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Anteil"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#AnteileVon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#AnteileVon">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Anteil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzeugungsJahr -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzeugungsJahr">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Jahr"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#InvestierertIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#InvestierertIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Investitionen"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#InvestitionsJahr -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#InvestitionsJahr">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Jahr"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Investitionen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#WahlJahr -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#WahlJahr">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Jahr"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Wahl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#Anteile -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#Anteile">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Anteil"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Wahl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzAndere -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzAndere">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzBraunkohle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzBraunkohle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzGas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzGas">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzKernenergie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzKernenergie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzPumpspeicher -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzPumpspeicher">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzSolar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzSolar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzSteinkohle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzSteinkohle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzWasserkraft -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzWasserkraft">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzWind -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzWind">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzOel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzÖl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#ErzBiomasse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#ErzBiomasse">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#FDP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#FDP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Wahl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#Gruenen -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#Gruenen">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Wahl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#InvAndere -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#InvAndere">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Investitionen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#InvBiomasse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#InvBiomasse">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Investitionen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#InvSolar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#InvSolar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Investitionen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#InvWasserkraft -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#InvWasserkraft">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Investitionen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#InvWind -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#InvWind">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Investitionen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#JahrWert -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#JahrWert">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Jahr"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#Linke -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#Linke">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Wahl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#SPD -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#SPD">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Wahl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#Sonstige -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#Sonstige">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Sebastian/Investitionen#Wahl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#Anteil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#Anteil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#Erzeugung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#Investitionen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#Investitionen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#Jahr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#Jahr"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Sebastian/Investitionen#Wahl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Sebastian/Investitionen#Wahl"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

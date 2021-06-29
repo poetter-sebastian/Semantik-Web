@@ -1,0 +1,439 @@
+@base <http://example.com/base/> .
+@prefix owo: <http://www.semanticweb.org/Sebastian/Investitionen#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+owo:Jahr\2017 a owo:Jahr;
+  owo:Jahr "2017" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/32.9> a owo:Wahl;
+  owo:CDU-CSU "32.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/20.5> a owo:Wahl;
+  owo:SPD "20.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/10.7> a owo:Wahl;
+  owo:FDP "10.7";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+owo:Gruenen8.9 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "8.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Linke/9.2> a owo:Wahl;
+  owo:Linke "9.2";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/17.6> a owo:Wahl;
+  owo:Sonstige "17.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2017> .
+
+owo:Jahr\2013 a owo:Jahr;
+  owo:Jahr "2013" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/41.5> a owo:Wahl;
+  owo:CDU-CSU "41.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1994> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/25.7> a owo:Wahl;
+  owo:SPD "25.7";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/4.8> a owo:Wahl;
+  owo:FDP "4.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+owo:Gruenen8.4 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "8.4";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Linke/8.6> a owo:Wahl;
+  owo:Linke "8.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/11> a owo:Wahl;
+  owo:Sonstige "11";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2013> .
+
+owo:Jahr\2009 a owo:Jahr;
+  owo:Jahr "2009" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/33.8> a owo:Wahl;
+  owo:CDU-CSU "33.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/23> a owo:Wahl;
+  owo:SPD "23";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/14.6> a owo:Wahl;
+  owo:FDP "14.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+owo:Gruenen10.7 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "10.7";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Linke/11.9> a owo:Wahl;
+  owo:Linke "11.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/6> a owo:Wahl;
+  owo:Sonstige "6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2009> .
+
+owo:Jahr\2005 a owo:Jahr;
+  owo:Jahr "2005" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/35.2> a owo:Wahl;
+  owo:CDU-CSU "35.2";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1998> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/34.2> a owo:Wahl;
+  owo:SPD "34.2";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/9.8> a owo:Wahl;
+  owo:FDP "9.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+owo:Gruenen8.1 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "8.1";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Linke/8.7> a owo:Wahl;
+  owo:Linke "8.7";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/4> a owo:Wahl;
+  owo:Sonstige "4";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2005> .
+
+owo:Jahr\2002 a owo:Jahr;
+  owo:Jahr "2002" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/38.5> a owo:Wahl;
+  owo:CDU-CSU "38.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/38.5> a owo:Wahl;
+  owo:SPD "38.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/7.4> a owo:Wahl;
+  owo:FDP "7.4";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+owo:Gruenen8.6 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "8.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Linke/4> a owo:Wahl;
+  owo:Linke "4";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/3> a owo:Wahl;
+  owo:Sonstige "3";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/2002> .
+
+owo:Jahr\1998 a owo:Jahr;
+  owo:Jahr "1998" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/40.9> a owo:Wahl;
+  owo:SPD "40.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1998> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/6.2> a owo:Wahl;
+  owo:FDP "6.2";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1998> .
+
+owo:Gruenen6.7 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "6.7";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1998> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Linke/5.1> a owo:Wahl;
+  owo:Linke "5.1";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1998> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/5.9> a owo:Wahl;
+  owo:Sonstige "5.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1998> .
+
+owo:Jahr\1994 a owo:Jahr;
+  owo:Jahr "1994" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/36.4> a owo:Wahl;
+  owo:SPD "36.4";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1994> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/6.9> a owo:Wahl;
+  owo:FDP "6.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1994> .
+
+owo:Gruenen7.3 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "7.3";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1994> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Linke/4.4> a owo:Wahl;
+  owo:Linke "4.4";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1994> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/3.5> a owo:Wahl;
+  owo:Sonstige "3.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1994> .
+
+owo:Jahr\1990 a owo:Jahr;
+  owo:Jahr "1990" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/43.8> a owo:Wahl;
+  owo:CDU-CSU "43.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1990> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/33.5> a owo:Wahl;
+  owo:SPD "33.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1990> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/11> a owo:Wahl;
+  owo:FDP "11";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1990> .
+
+owo:Gruenen5 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1990> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Linke/2.4> a owo:Wahl;
+  owo:Linke "2.4";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1990> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/4.3> a owo:Wahl;
+  owo:Sonstige "4.3";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1990> .
+
+owo:Jahr\1987 a owo:Jahr;
+  owo:Jahr "1987" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/44.3> a owo:Wahl;
+  owo:CDU-CSU "44.3";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1987> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/37> a owo:Wahl;
+  owo:SPD "37";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1987> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/9.1> a owo:Wahl;
+  owo:FDP "9.1";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1987> .
+
+owo:Gruenen8.3 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "8.3";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1987> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Linke/0> a owo:Wahl;
+  owo:Linke "0";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1987>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1983>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1976>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1972>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1969>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1965>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1961>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1957>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1953>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1949> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/1.3> a owo:Wahl;
+  owo:Sonstige "1.3";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1987> .
+
+owo:Jahr\1983 a owo:Jahr;
+  owo:Jahr "1983" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/48.8> a owo:Wahl;
+  owo:CDU-CSU "48.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1983> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/38.2> a owo:Wahl;
+  owo:SPD "38.2";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1983> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/7> a owo:Wahl;
+  owo:FDP "7";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1983> .
+
+owo:Gruenen5.6 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "5.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1983> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/0.4> a owo:Wahl;
+  owo:Sonstige "0.4";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1983> .
+
+owo:Jahr\1980 a owo:Jahr;
+  owo:Jahr "1980" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/44.5> a owo:Wahl;
+  owo:CDU-CSU "44.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1980> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/42.9> a owo:Wahl;
+  owo:SPD "42.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1980> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/10.6> a owo:Wahl;
+  owo:FDP "10.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1980> .
+
+owo:Gruenen1.5 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "1.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1980> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/0.5> a owo:Wahl;
+  owo:Sonstige "0.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1980> .
+
+owo:Jahr\1976 a owo:Jahr;
+  owo:Jahr "1976" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/48.6> a owo:Wahl;
+  owo:CDU-CSU "48.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1976> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/42.6> a owo:Wahl;
+  owo:SPD "42.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1976> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/7.9> a owo:Wahl;
+  owo:FDP "7.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1976> .
+
+owo:Gruenen0 a owo:Wahl;
+  owo:Gr%EF%BF%BDnen "0";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1976>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1972>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1969>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1965>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1961>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1957>,
+    <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1953>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1949> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/0.9> a owo:Wahl;
+  owo:Sonstige "0.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1976>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1972> .
+
+owo:Jahr\1972 a owo:Jahr;
+  owo:Jahr "1972" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/44.9> a owo:Wahl;
+  owo:CDU-CSU "44.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1972> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/45.8> a owo:Wahl;
+  owo:SPD "45.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1972> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/8.4> a owo:Wahl;
+  owo:FDP "8.4";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1972> .
+
+owo:Jahr\1969 a owo:Jahr;
+  owo:Jahr "1969" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/46.1> a owo:Wahl;
+  owo:CDU-CSU "46.1";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1969> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/42.7> a owo:Wahl;
+  owo:SPD "42.7";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1969> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/5.8> a owo:Wahl;
+  owo:FDP "5.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1969> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/5.5> a owo:Wahl;
+  owo:Sonstige "5.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1969> .
+
+owo:Jahr\1965 a owo:Jahr;
+  owo:Jahr "1965" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/47.6> a owo:Wahl;
+  owo:CDU-CSU "47.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1965> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/39.3> a owo:Wahl;
+  owo:SPD "39.3";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1965> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/9.5> a owo:Wahl;
+  owo:FDP "9.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1965>, <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1953> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/3.6> a owo:Wahl;
+  owo:Sonstige "3.6";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1965> .
+
+owo:Jahr\1961 a owo:Jahr;
+  owo:Jahr "1961" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/45.3> a owo:Wahl;
+  owo:CDU-CSU "45.3";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1961> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/36.2> a owo:Wahl;
+  owo:SPD "36.2";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1961> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/12.8> a owo:Wahl;
+  owo:FDP "12.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1961> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/5.7> a owo:Wahl;
+  owo:Sonstige "5.7";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1961> .
+
+owo:Jahr\1957 a owo:Jahr;
+  owo:Jahr "1957" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/50.2> a owo:Wahl;
+  owo:CDU-CSU "50.2";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1957> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/31.8> a owo:Wahl;
+  owo:SPD "31.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1957> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/7.7> a owo:Wahl;
+  owo:FDP "7.7";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1957> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/10.5> a owo:Wahl;
+  owo:Sonstige "10.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1957> .
+
+owo:Jahr\1953 a owo:Jahr;
+  owo:Jahr "1953" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/45.2> a owo:Wahl;
+  owo:CDU-CSU "45.2";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1953> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/28.8> a owo:Wahl;
+  owo:SPD "28.8";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1953> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/16.5> a owo:Wahl;
+  owo:Sonstige "16.5";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1953> .
+
+owo:Jahr\1949 a owo:Jahr;
+  owo:Jahr "1949" .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#CDU-CSU/31> a owo:Wahl;
+  owo:CDU-CSU "31";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1949> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#SPD/29.2> a owo:Wahl;
+  owo:SPD "29.2";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1949> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#FDP/11.9> a owo:Wahl;
+  owo:FDP "11.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1949> .
+
+<http://www.semanticweb.org/Sebastian/Investitionen#Sonstige/27.9> a owo:Wahl;
+  owo:Sonstige "27.9";
+  owo:WahlJahr <http://www.semanticweb.org/Sebastian/Investitionen#Jahr/1949> .
