@@ -1,0 +1,127 @@
+[ 
+ {
+  "name": [{"en": "Hydro Pumped Storage consumption", "de": "Pumpspeicher Verbrauch", "fr": "Hydraulique STEP consommation", "it": "Pompaggio consumo"}],
+  "color": "rgb(50,50,150)",
+  "visible": false,
+  "showInLegend": true,
+  "format": "Highcharts",
+  "chartTitle": [{ "en": "Annual net electricity generation in Germany", "de": "J\u00e4hrliche Nettostromerzeugung in Deutschland", "fr": "Production d'\u00e9lectricit\u00e9 annuelle en Allemagne", "it": "La produzione di elettricit\u00e0 annua in Germania" }] ,
+  "xAxisLabel" : [{ "en":"Year" , "de":"Jahr" , "fr":"Ann\u00e9e" , "it":"Anno" }] ,
+  "xAxisFormat": "integer",
+  "y0AxisLabel": [{ "en": "Energy (TWh)", "de": "Energie (TWh)", "fr": "\u00c9nergie (TWh)", "it": "Energia (TWh)"}] ,
+  "y0AxisDecimalPlaces": 2,
+  "stacked": "true",
+  "comment": [{"en": "Net generation of power plants for public power supply.", "de": "Nettoerzeugung von Kraftwerken zur \u00f6ffentlichen Stromversorgung.", "fr": "Production nette des centrales pour l'alimentation du r\u00e9seau \u00e9lectrique publique.", "it": "Produzione netta delle centrali elettriche per l'alimentazione elettrica pubblica."}],
+  "datasource": "50 Hertz, Amprion, Tennet, TransnetBW, Destatis, EEX",
+  "date": 1619594115000,
+  "xAxisValues": [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
+  "stack": "storage",
+  "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, -9.077, -8.986, -9.247, -10.058, -8.953, -10.57, -3.493 ]
+  },
+ {
+  "name": [{"en": "Import Balance", "de": "Import Saldo", "fr": "Solde des importations", "it": "Saldo del Importazione"}],
+  "color" : "rgb(125,25,125)",
+  "visible": false,
+  "showInLegend": true,
+  "stack": "load" ,
+  "disabled": "true",
+  "data": [6.628, -3.2696, -2.6213, -4.5652, -16.9771, -16.5551, -20.0995, -12.273, -14.9552, -3.7658, -20.541, -32.1942, -33.8869, -48.2826, -50.5248, -52.4598, -48.7177, -32.6687, -18.625, -9.4068]
+  },
+ {
+  "name": [{"en": "Hydro Power", "de": "Wasserkraft", "fr": "Hydro\u00e9lectrique", "it": "Idroelettrica"}],
+  "color": "rgb(0,0,200)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "renewable" ,
+  "data": [23.124, 18.322, 20.745, 19.638, 20.031, 21.17, 20.443, 19.031, 20.953, 17.671, 21.211, 22.845, 19.41, 18.812, 20.66, 20.079, 17.141, 20.137, 18.402, 4.767]
+  },
+ {
+  "name": [{"en": "Biomass", "de": "Biomasse", "fr": "Biomasse", "it": "Biomassa"}],
+  "color": "rgb(0,150,50)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "renewable" ,
+  "data": [4.13, 6.746, 8.385, 11.61, 15.224, 20.212, 23.43, 28.784, 31.325, 34.062, 39.952, 41.043, 42.641, 44.151, 44.681, 44.792, 45.805, 43.71, 47.148, 15.656]
+  },
+ {
+  "name": [{"en": "Nuclear", "de": "Kernenergie", "fr": "Nucl\u00e9aire", "it": "Nucleare"}],
+  "color": "rgb(255,0,0)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "conventional" ,
+  "data": [156.287, 156.456, 158.378, 154.612, 158.711, 133.229, 140.71, 127.69, 132.971, 102.241, 94.18, 92.127, 91.8, 86.765, 80.038, 72.155, 71.866, 70.992, 60.917, 21.456]
+  },
+ {
+  "name": [{"en": "Fossil Brown Coal", "de": "Braunkohle", "fr": "Lignite", "it": "Lignite"}],
+  "color": "rgb(150,125,100)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "conventional" ,
+  "data": [140.544, 141.726, 142.136, 138.205, 135.087, 138.565, 134.498, 130.992, 130.429, 134.056, 141.868, 145.122, 140.791, 139.371, 134.886, 133.983, 131.498, 101.924, 82.128, 31.456]
+  },
+ {
+  "name": [{"en": "Fossil Hard Coal", "de": "Steinkohle", "fr": "Houille", "it": "Carbone"}],
+  "color": "rgb(50,50,50)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "conventional" ,
+  "data": [111.427, 121.831, 116.64, 112.973, 116.47, 119.131, 105.714, 91.654, 99.706, 96.499, 105.83, 110.724, 107.734, 106.208, 99.765, 81.724, 72.406, 49.503, 35.591, 15.413]
+  },
+ {
+  "name": [{"en": "Fossil Oil", "de": "\u00d6l", "fr": "Fioul", "it": "Olio"}],
+  "color": "rgb(125,100,75)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "conventional" ,
+  "data": [1.755, 2.035, 1.874, 2.401, 2.086, 2.234, 2.211, 2.492, 2.544, 1.638, 2.153, 0.988, 0.872, 0.904, 1.055, 1.041, 0.782, 0.745, 0.59, 0.454]
+  },
+ {
+  "name": [{"en": "Fossil Gas", "de": "Gas", "fr": "Gaz", "it": "Gas"}],
+  "color": "rgb(250,150,75)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "conventional" ,
+  "data": [39.983, 44.974, 44.882, 52.31, 54.958, 56.257, 66.937, 57.599, 63.091, 59.761, 49.868, 39.584, 31.122, 30.123, 46.503, 48.956, 44.533, 52.9, 56.767, 25.862]
+  },
+ {
+  "name": [{"en": "Others", "de": "Andere", "fr": "Autres", "it": "Altro"}],
+  "color": "rgb(150,125,175)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "conventional" ,
+  "data": [9.713, 10.359, 10.581, 12.261, 12.486, 12.59, 12.987, 4.51, 4.98, 4.532, 4.831, 6.015, 4.837, 2.767, 2.692, 1.983, 2.83, 2.608, 2.608, 0.923]
+  },
+ {
+  "name": [{"en": "Hydro Pumped Storage generation", "de": "Pumpspeicher Erzeugung", "fr": "Hydraulique STEP g\u00e9n\u00e9ration", "it": "Pompaggio generazione"}],
+  "color": "rgb(0,150,225)",
+  "visible": false,
+  "showInLegend": true,
+  "stack": "storage",
+  "data": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 9.077, 8.986, 9.247, 10.058, 8.953, 10.57, 3.117 ]
+  },
+ {
+  "name": [{"en": "Wind", "de": "Wind", "fr": "\u00c9olien", "it": "Eolica"}],
+  "color": "rgb(175,196,165)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "renewable" ,
+  "data": [16.102, 19.087, 26.019, 27.774, 31.324, 40.507, 41.385, 39.42, 38.547, 49.857, 51.68, 52.737, 58.497, 80.624, 79.924, 105.693, 109.951, 125.894, 131.851, 43.643]
+  },
+ {
+  "name": [{"en": "Solar", "de": "Solar", "fr": "Solaire", "it": "Solare"}],
+  "color": "rgb(255,205,100)",
+  "visible": true,
+  "showInLegend": true,
+  "stack": "renewable" ,
+  "data": [0.162, 0.313, 0.557, 1.282, 2.22, 3.075, 4.42, 6.583, 11.729, 19.599, 26.38, 31.01, 36.056, 38.726, 38.098, 39.401, 45.784, 46.392, 51.419, 13.109]
+  },
+ {
+  "name": [{"en": "Load", "de": "Last", "fr": "Charge", "it": "Carico"}],
+  "color": "rgb(50,50,50)",
+  "visible": false,
+  "showInLegend": true,
+  "nonStackable": "true",
+  "stack": "load" ,
+  "data": [null, null, null, null, null, null, null, null, 488.5863, 490.2169, 469.5779, 463.3279, 505.9436, 505.2669, 478.9854, 493.1514, 508.4945, 484.83, null, 165.7887]
+  }
+]
