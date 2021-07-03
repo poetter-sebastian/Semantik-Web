@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<rdf:Description about="2004">
+	  <dc:Jahr>2004</dc:Jahr>
+	  <dc:Andcil>6.2</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2005">
+	  <dc:Jahr>2005</dc:Jahr>
+	  <dc:Andcil>7.1</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2006">
+	  <dc:Jahr>2006</dc:Jahr>
+	  <dc:Andcil>8.4</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2007">
+	  <dc:Jahr>2007</dc:Jahr>
+	  <dc:Andcil>10.2</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2008">
+	  <dc:Jahr>2008</dc:Jahr>
+	  <dc:Andcil>10.1</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2009">
+	  <dc:Jahr>2009</dc:Jahr>
+	  <dc:Andcil>10.7</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2010">
+	  <dc:Jahr>2010</dc:Jahr>
+	  <dc:Andcil>11.4</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2011">
+	  <dc:Jahr>2011</dc:Jahr>
+	  <dc:Andcil>12.5</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2012">
+	  <dc:Jahr>2012</dc:Jahr>
+	  <dc:Andcil>13.6</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2013">
+	  <dc:Jahr>2013</dc:Jahr>
+	  <dc:Andcil>13.8</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2014">
+	  <dc:Jahr>2014</dc:Jahr>
+	  <dc:Andcil>14.3</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2015">
+	  <dc:Jahr>2015</dc:Jahr>
+	  <dc:Andcil>15.2</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2016">
+	  <dc:Jahr>2016</dc:Jahr>
+	  <dc:Andcil>14.9</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2017">
+	  <dc:Jahr>2017</dc:Jahr>
+	  <dc:Andcil>16</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2019">
+	  <dc:Jahr>2018</dc:Jahr>
+	  <dc:Andcil>16.8</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2019">
+	  <dc:Jahr>2019</dc:Jahr>
+	  <dc:Andcil>17.7</dc:Andcil>
+	</rdf:Description>
+	<rdf:Description about="2020">
+	  <dc:Jahr>2020</dc:Jahr>
+	  <dc:Andcil>19.6</dc:Andcil>
+	</rdf:Description>
+</rdf:RDF>
